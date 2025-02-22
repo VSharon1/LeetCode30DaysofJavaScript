@@ -3,7 +3,7 @@ const timeLimit = (fn, t) => {
         return new Promise (async (resolve, reject) => {
             const timeoutId = setTimeout(() => {
                 clearTimeout(timeoutId);
-                reject("Time Limit Exceeded");
+                reject('Time Limit Exceeded');
             }, t);
 
             try {
