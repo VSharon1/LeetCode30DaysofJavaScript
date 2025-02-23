@@ -1,9 +1,9 @@
 const map = (arr, fn) => {
-    const arrTransformed = [];
+  const arrTransformed = [];
 
-    arr.forEach((element, index) => {
-        arrTransformed[index] = fn(element, index);
-    });
+  arr.forEach((element, index) => {
+    arrTransformed[index] = fn(element, index);
+  });
 
-    return arrTransformed
+  return arrTransformed;
 };
