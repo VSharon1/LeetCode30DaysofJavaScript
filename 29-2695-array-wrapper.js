@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {void}
  */
-var ArrayWrapper = function (nums) {
+const ArrayWrapper = function (nums) {
   this.nums = nums;
 };
 
