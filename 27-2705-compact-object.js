@@ -1,3 +1,7 @@
+/**
+ * @param {Object|Array} obj
+ * @return {Object|Array}
+ */
 const compactObject = (obj) => {
   if (Array.isArray(obj)) {
     let result = [];
