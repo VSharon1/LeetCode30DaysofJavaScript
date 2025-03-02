@@ -1,8 +1,16 @@
-// createCounter is a function, but returns another function.
+/**
+ * @param {number} n
+ * @return {Function} counter
+ */
 const createCounter = (n) => {
-  // returns and another function that returns n and then increments it.
-  return () => n++;
+  return () => {
+    return n++;
+  };
 };
 
-// counter is a function, not a value.
-// const counter = createCounter(10);
+/*
+ * const counter = createCounter(10)
+ * counter() // 10
+ * counter() // 11
+ * counter() // 12
+ */

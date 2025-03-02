@@ -1,5 +1,8 @@
+/**
+ * @param {string} val
+ * @return {Object}
+ */
 const expect = (val) => {
-  // function must return an object containing two functions.
   return {
     toBe: (val2) => {
       if (val === val2) {
@@ -17,3 +20,8 @@ const expect = (val) => {
     },
   };
 };
+
+/*
+ * expect(5).toBe(5); // true
+ * expect(5).notToBe(5); // throws "Equal"
+ */
