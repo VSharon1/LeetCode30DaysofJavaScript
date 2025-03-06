@@ -29,6 +29,7 @@ pnpm-debug.log*
 # VS Code
 .vscode/
 *.code-workspace
+.venv/
 
 # Node.js / JavaScript / React / Vite
 node_modules/
